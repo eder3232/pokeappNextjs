@@ -27,7 +27,7 @@ const MainLayout = (props: Props) => {
           property="og:description"
           content={`Esta es la pagina sobre: ${props.title}`}
         />
-        <meta property="og:image" content={`${origin}/img/banner/png`} />
+        <meta property="og:image" content={`${origin}/banner.png`} />
       </Head>
       <main>
         <Navbar />
